@@ -1,0 +1,151 @@
+
+body{
+  font-family: Calibri, Helvetica, sans-serif;
+  background-image: url(img/background.jpg);
+  background-size: cover;
+}
+h1,h2{
+  color: white;
+  font-weight: bold;
+  margin-top: -10px;
+
+}
+.container {
+    padding: 50px;
+  background-color: #000000b2;
+  border-radius: 2cm;
+
+}
+
+label{
+
+  color: white;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+
+
+::placeholder{
+  color: rgba(255, 255, 255, 0.75);
+  opacity: 100;
+  font-weight: bold;
+  font-size: 17px;
+}
+option{
+
+  font-weight: bold;
+  font-size: 16px;
+ background-color: rgba(0, 0, 0, 0.585);
+
+}
+select{
+  width: 100px;
+  padding: 8px ;
+  border: white;
+  border-radius: 4px;
+  background-color: #00000084;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+
+}
+
+.radio
+{
+color: white;
+font-weight: bold;
+}
+/*
+input .d {
+  box-sizing: border-box;
+  display: block;
+  width: 30%;
+  border: 3px solid currentColor;
+  padding: calc(var(--size-bezel) * 1.5) var(--size-bezel);
+  color: currentColor;
+  background: transparent;
+  border-radius: var(--size-radius);
+}
+*/
+
+input[type=text], input[type=password], textarea {
+  width: 8cm;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background-color: #ffffff00;
+  color: rgb(255, 255, 255);
+  border-bottom: 2px solid rgb(255, 255, 255);
+  font-size: 18px;
+
+}
+
+#main,#current{
+
+  margin-right: 150px;
+}
+
+#address,#doctor {
+
+  margin-right: 110px;
+}
+
+
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ffffff30;
+  outline: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+ div {
+            padding: 10px 0;
+         }
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  margin-right: 570px;
+  border: none;
+  border-radius: 1cm;
+  cursor: pointer;
+  width: 300px;
+  opacity: 0.9;
+  font-size: 20px;
+  font-weight: bold;
+}
+.registerbtn:hover {
+  opacity: 1;
+}
+
+textarea{
+    width: 350px;
+    height: 150px;
+
+  margin-right: 76px;
+  border-width: 30px;
+  border: solid rgba(255, 255, 255, 0.305);
+    resize: none;
+
+}
+.DIAGNOSIS{
+
+  margin-right: 530px;
+  margin-top: -210px;
+}
+.PRESCRIPTION{
+
+  margin-right: 1050px;
+  margin-top: -220px;
+}
+
+#complain ,#PRESCRIPTION,#DIAGNOSIS{
+  margin-right: 1px;
+}
